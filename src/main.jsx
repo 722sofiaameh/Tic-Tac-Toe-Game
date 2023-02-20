@@ -71,8 +71,8 @@ class Board extends React.Component {
 }
 
 class Game extends React.Component {
-  render() {
-    constructor (props){
+  constructor (props)
+    {
    super(props);
    this.state = {
     history: [{
@@ -80,7 +80,9 @@ class Game extends React.Component {
     }],
     xIsNext: true,
    };
-    }
+    };
+  render() {
+    
     return (
       <div className="game">
         <div className="game-board">
