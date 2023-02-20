@@ -6,7 +6,7 @@
   
 }
 body{
-  background-color: orangered;
+  background-color: teal
 }
 .logo {
   height: 6em;
@@ -95,4 +95,8 @@ ol, ul {
   margin-left: 20px;
   font-size: 20px;
   color: whitesmoke;
+}
+.intro-text{
+  font-size: 32px;
+  color: white;
 }

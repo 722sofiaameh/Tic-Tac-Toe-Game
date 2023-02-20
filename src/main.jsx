@@ -28,6 +28,8 @@ class Board extends React.Component {
     
     return (
       <div>
+          <div className="intro-text">Tic Tac Toe Game</div>
+
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
@@ -96,6 +98,7 @@ class Game extends React.Component {
         'Go to move #' + move :
         'Go to game start';
       return (
+    
         <li key={move}>
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
         </li>
