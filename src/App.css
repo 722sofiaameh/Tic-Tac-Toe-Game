@@ -14,12 +14,7 @@ body{
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
 
 @keyframes logo-spin {
   from {
@@ -45,7 +40,7 @@ body{
 }
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  /* margin: 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,4 +93,6 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+  font-size: 20px;
+  color: whitesmoke;
 }
